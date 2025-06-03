@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+.stx_panel_border{
+  color: transparent;
+}
+
 .stx_jump_today {
   background: #0000 !important;
   border-radius: 50%;

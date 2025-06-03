@@ -84,6 +84,7 @@ const App: FC = () => {
     })
 
     CIQ.ChartEngine.YAxis.prototype.decimalPlaces=4;
+    stxx.chart.xAxis.displayBorder = false
 
     new CIQ.Animation({
       stx: stxx,
@@ -163,6 +164,7 @@ const App: FC = () => {
 
     return () => {
       if (stx.current) {
+        // destroy chart
         stx.current.container.remove()
         stx.current.clear();
         stx.current.draw = () => {};
