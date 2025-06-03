@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stx_jump_today {
+  background: #0000 !important;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+}
+
+.stx_jump_today span {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC8SURBVHgB7ZMxCgIxEEV/gojlHmGvsqVlSis9ip5EOys3IMJqtUfwCnsEWwUzZhYEcUky0VIfhPxiePkhBPgTYmubkldqTkGAtW3h9PXM+eaomplpF5rVEGBMdYGjlY/lWKs21lTU8MnONgtotfaxCzXNEkqk2cKUdCCs98eWCCWSqAKg4l06eBQHKb2sZ/J6DD6gPpzmdKcNt9O+nYld+RtZtjAlyxJKZIzopzBetkzJmBGEsIj3mOxHeQAOsHdaUMJrZQAAAABJRU5ErkJggg==);
+  background-position: 0 0 !important;
+  background-size: 100% 100%;
+  height: 40px;
+  left: 50%;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
