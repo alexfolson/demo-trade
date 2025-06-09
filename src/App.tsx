@@ -118,50 +118,6 @@ const App: FC = () => {
       }, 500)
     });
 
-    const settings = {
-      chart: {
-        Background: {
-          color: "transparent"
-        },
-        "Grid Lines": {
-          color: "transparent",
-        },
-        "Grid Dividers": {
-          color: "transparent"
-        },
-        "Axis Text": {
-          color: "#b3bec1"
-        }
-      },
-      chartTypes: {
-        "Candle/Bar": {
-          up: {
-            color: "#2ECC71",
-            wick: "#2ECC71",
-            border: "#2ECC71",
-          },
-          down: {
-            color: "#FF5449",
-            wick: "#FF5449",
-            border: "#FF5449",
-          },
-          even: {
-            color: "",
-            wick: "",
-            border: "",
-          }
-        },
-        Line: {
-          color: "",
-        },
-        Mountain: {
-          color: "#DBEC65",
-          basecolor: "#DBEC65",
-        }
-      }
-    }
-    stxx.setThemeSettings(settings)
-
     return () => {
       if (stx.current) {
         // destroy chart

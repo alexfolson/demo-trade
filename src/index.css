@@ -1,10 +1,13 @@
-body {
-  margin: 0;
-  padding: 0;
+.stx_current_hr_up{
+  background-color: #2ECC71 !important;
+}
+
+.stx_current_hr_down{
+  background-color: #FF5449 !important;
 }
 
 .stx_panel_border{
-  color: transparent;
+  color: transparent !important;
 }
 
 .stx_jump_today {
@@ -12,6 +15,28 @@ body {
   border-radius: 50%;
   height: 36px;
   width: 36px;
+}
+
+.stx_candle_up{
+  color: #2ECC71 !important;
+}
+
+.stx_candle_down{
+  color: #FF5449 !important;
+}
+
+.stx_yaxis{
+  color: #b3bec1 !important;
+}
+
+.stx_yaxis{
+  color: #b3bec1 !important;
+}
+
+.stx_mountain_chart{
+  background-color: rgba(219, 236, 101, .2) !important;
+  border-top-color: #DBEC65 !important;
+  color: #000000 !important;
 }
 
 .stx_jump_today span {
